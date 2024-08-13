@@ -1,0 +1,424 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    /* background-color: skyblue; */
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    padding: 0 40px;
+    margin: auto 0;
+}
+.logo img{
+    width: 200px;
+}
+.words{
+    padding: 0 10px;
+}
+.logo1{
+    display: flex;
+    padding: 20px 40px;
+    margin: auto 0;
+}
+.navbar1{
+    background-color: rgb(4, 4, 42);
+}
+.home{
+    padding: 30px 0;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+}
+.home a{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+.btn{
+    margin: auto 0;
+}
+.btn button{
+    padding: 10px 50px;
+    border-radius: 20px;
+    border: none;
+}
+.icon i{
+    background-color: rgb(4, 4, 42);
+    padding: 10px;
+    border-radius: 50%;
+    color: white;
+}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+.slideshow-container {
+  position: relative;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  background-color: #717171;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+}
+.text p{
+    color: red;
+    font-size: 20px;
+    font-weight: 900;
+}
+.text h1{
+    font-size: 45px;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  position: absolute;
+  top: 0;
+}
+
+.active{
+  background-color: #717171;
+}
+
+
+.about{
+    display: flex;
+    padding: 50px 0;
+}
+
+.same{
+    flex: 1;
+    padding: 0 40px;
+    margin: auto 0;
+}
+
+.same img{
+    width: 360px;
+    display: flex;
+    float: right;
+}
+.same span{
+    color: red;
+    font-size: 20px;
+}
+
+.same h2{
+    padding: 10px 0;
+}
+
+.same p{
+    padding: 10px 0;
+}
+
+.same button{
+    padding: 10px 20px;
+    background-color: red;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    margin-top: 20px;
+}
+.line{
+    display: flex;
+}
+.line i{
+    margin: auto 0;
+    border-radius: 50%;
+    font-size: 10px;
+    padding: 1px;
+    color: red;
+    border: 2px solid red;
+}
+.line p{
+    padding: 0 10px;
+}
+.services{
+    text-align: center;
+}
+.services p{
+    padding: 20px 0;
+    color: red;
+}
+.services h2{
+    font-size: 30px;
+}
+.box{
+    padding: 40px 0;
+}
+.box1{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 0;
+}
+.box2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box1 img{
+    width: 60px;
+}
+.box2 img{
+    width: 60px;
+}
+
+.working{
+    background-color: rgb(8, 8, 47);
+    display: flex;
+    justify-content: space-evenly;
+}
+.work1{
+    display: flex;
+    padding: 100px 0;
+}
+.icon1{
+    color: red;
+    font-size: 40px;
+}
+.icon1 i{
+    margin-top: 5px;
+}
+.words1{
+    color: white;
+    padding: 0 10px;
+}
+.words1 h3{
+    font-size: 45px;
+}
+.plus{
+    color: white;
+    font-size: 25px;
+    margin-left: -45px;
+}
+.plan{
+    padding: 90px 0;
+}
+.plan1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.plan p{
+    color: red;
+    text-align: center;
+}
+.plan h2{
+    font-size: 30px;
+    padding: 20px 0;
+    text-align: center;
+}
+.dollar{
+    display: flex;
+    justify-content: center;
+    color: red;
+}
+.dollar i{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.dollar span{
+    margin-top: 6px;
+    font-size: 20px; 
+}
+.dollar h3{
+    font-size: 40px;
+    padding: 0 5px;
+}
+.sign{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+.sign span{
+    padding: 0 5px;
+}
+.sign i{
+    border: 1px solid green;
+    border-radius: 50%;
+    color: green;
+}
+.gray i{
+    color: gray;
+    border: 1px solid gray;
+    border-radius: 50%;
+}
+.book{
+    width: 25%;
+    padding: 30px 0;
+}
+.book h5{
+    font-size: 20px;
+    color: red;
+    padding: 10px 0;
+}
+.book button{
+    margin: 20px 0;
+}
+.center button{
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: none;
+    background-color: red;
+    color: white;
+
+}
+.side button{
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(8, 8, 47);
+    color: red;
+}
+.center{
+    box-shadow: 0 0 30px #888888;
+}
+.mainfoot{
+    background-color: rgb(8, 8, 47);
+}
+.foot{
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+table th{
+    color: red;
+    text-align: left;
+    padding: 15px 0;
+}
+table td{
+    padding: 8px 0;
+}
+td i{
+    padding: 0 10px;
+}
+.last i{
+    background-color: white;
+    color: rgb(8, 8, 47);
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 20px;
+}
+.mainfoot p{
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+    font-size: 18px;
+}
+.right{
+    display: grid;
+}
+.right h6{
+    padding: 15px 0;
+    font-size: 16px;
+    color: red;
+}
+
+.mainfoot a{
+    text-decoration: none;
+    color: white;
+}
+.washing{
+    text-align: center;
+    padding: 50px 0;
+}
+.area{
+    padding: 30px 0;
+}
+.part{
+    display: flex;
+    justify-content: space-evenly;
+}
+.i{
+padding: 0 10px;
+}
+.i i{
+font-size: 35px;
+color: red;
+}
+.area h3,
+.washing h2{
+color: rgb(8, 8, 87);
+}
+.head{
+color: red;
+padding: 10px 0;
+}
+.maincenter{
+    background-color: aquamarine;
+}
+.in{
+    margin: auto;
+    width: 50%;
+    padding: 80px 0;
+}
+.in h2{
+    font-size: 40px;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+.inpt{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.inpt label{
+    background-color: rgb(230, 105, 10);
+    padding: 10px 15px;
+    border: none;
+    font-weight: bolder;
+}
+.inpt input{
+    width: 100%;
+    border: none;
+}
+.signin{
+    margin-top: 30px;
+    background-color: rgb(59, 59, 150);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.in a{
+    text-decoration: none;
+}
+.in p{
+    margin: 150px 0;
+    font-size: 20px;
+    color: red;
+    text-align: center;
+}
+
+
